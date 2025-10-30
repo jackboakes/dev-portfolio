@@ -2,47 +2,127 @@
 <html lang="en-us">
 <head>
     <meta charset="utf-8">
-    <title>website by jack boakes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        section a {
-            margin: 8px;
-        }
-
-        section img {
-            max-width: 29%;
-            height: auto;
-        }
-
-    </style>
+    <title>Jack Boakes</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="background-color: #F1FF00;">
+<body>
+  <header class="header-name">
+    <h1 >Jack Boakes</h1>
+  </header>
 
-<h1> <img src="img/website_by_jack_boakes.gif" 
-alt="Picture of Website Title" title="website by jack boakes"> </h1>
+<nav class="nav-bar"> 
+    <ul class="nav-menu"> 
+        <li class="nav-item"><a href="#">Home</a></li> 
+        <li class="nav-item"><a href="#about-me">About Me</a></li> 
+        <li class="nav-item"><a href="#projects">Projects</a></li> 
+        <li class="nav-item mobile-contact"><a href="#contact">Contact</a></li> 
+    </ul>
+    <ul class="contact-links"> 
+        <li class="nav-item"> <a href="https://github.com/jackboakes" target="_blank" rel="noopener noreferrer">GitHub</a> 
+        </li> <li class="nav-item"> <a href="https://www.linkedin.com/in/jack-boakes-92273b389/" target="_blank" rel="noopener noreferrer">LinkedIn</a> 
+        </li> <li class="nav-item"> <a href='ma&#105;&#108;to&#58;%6&#56;&#101;l&#108;o&#64;jack%6&#50;oak&#101;s&#46;c&#111;m'>Email</a> </li> 
+    </ul> 
+</nav>
 
-<p> You're visitor # <img src="img/fake_hit_counter.png" 
-alt="Fake Hit Counter" title="Relic Entertainment's Impossible Creatures release date" width = "100"> since January 7, 2003
-</p>
-<b></b>
-<b></b>
-<h2> About me </h2>
-<p> 
-    Schrödinger's cat 
-</p>
-<br><br>
-<br><br>
+<main>
+    <section class="about-me">
+    <h2 id="about-me"> About Me </h2>
+        <p> 
+            Hey, I'm <b>Jack Boakes</b>, I aim to create the kind of moments for others that games have created for me.
 
-<h1> Some of my favourite games </h1>
-<section>
-<a href="#"><img src="img\IC_Cover.png" alt="Square cover of Impossible Creatures game" width="200" style="border:1px solid black"></a>
-<a href="#"><img src="img/LoL_Cover.png" alt="Square cover of League of Legends" width="200" style="border:1px solid black"></a>
-<a href="#"><img src="img\WoD_Cover.png" alt="Square cover of World of Warcraft Warlords of Draenor Expansion" width="200" style="border:1px solid black"></a>
-</section>
+        </p>
+        <p>
+            Currently, I am a final year Bachelor of Computer Science student with a passion for programming.
+        </p>
+        <p>
+            My interests are in gameplay, graphics, tool and engines, but I am open to exploring new areas and collaborating on exciting projects.
+        </p>
+        <hr />
+    </section>
+
+    <section class="projects">
+        <h2 id="projects"> Projects </h2>
+        <div class="projects-container">
+            <div class="project-item">
+                <h3>Star Constellation Minigame</h3>
+                <div class="project-image">
+                    <img src="img/Star_Constellation.png" alt="Star Constellation Minigame Screenshot">
+                </div>
+                <div class="project-description">
+                    <p> 
+                        During my university capstone project, I developed a puzzle minigame for 
+                        <a href="https://sbccq.org/stephanies-animal-rescue/" target="_blank" rel="noopener noreferrer">Stephanie's Animal Rescue Secret Island</a>, in Unity 6.
+                    </p>
+                    <p>
+                        In each level, a different set of constellations are hidden amongst randomly placed stars, encouraging players to search for the correct shapes.
+                        Players connect stars to form constellation shapes by dragging between nodes.
+                        Because the game was designed for children of all abilities, I implemented a hint system that, after a short period of inactivity, guides players towards the next correct star.
+                    </p>
+                    <p>
+                        Under the hood, each level is defined within a JSON, which includes the level number, the shape type and the number of filler stars.
+                        Level generation was inspired from <a href="https://youtu.be/GcM9Ynfzll0" target="_blank" rel="noopener noreferrer"> Path of Exile's predefined level generation</a>.
+                    </p>
+                </div>
+            </div>
+        <div class="project-item">
+            <h3>Snake</h3>
+            <div class="project-image">
+                <img src="img/Snake.png" alt="Snake Game Screenshot">
+                <p style="text-align: center;">
+                    <a href="https://github.com/jackboakes/snake" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                </p>
+            </div>
+            <div class="project-description">
+                <p>
+                    Snake was built as a personal project to strengthen my understanding of low-level programming and game architecture.
+                </p>
+                <p>
+                    Originally I wrote the game as a console application in C but later added raylib to handle opening a window and graphics. 
+                    I later refactored the project into modern C++17, applying best practices and using features like std::filesystem and std::string_view.
+                <p>
+                    The game's menu UI is built in immediate mode and keeps track of only one active element.
+                    Player input is polled every frame and stored in a circular queue of size two, enabling responsive movements.
+                    The high score is saved to a text file using std::fstream, and all sound effects and artwork were created from scratch by me.
+                </p>
+            </div>
+        </div>
+
+        </div>
+        <hr />
+    </section>
+
+    <section class="favourite-games">
+        <h2>Some of My Favourite Games</h2>
+        <div class="favourite-games-gallery">
+            <img src="img/IC_Cover.png" alt="Square cover of Impossible Creatures game" width="200" style="border:1px solid black">
+            <img src="img/LoL_Cover.png" alt="Square cover of League of Legends" width="200" style="border:1px solid black">
+            <img src="img/WoD_Cover.png" alt="Square cover of World of Warcraft Warlords of Draenor Expansion" width="200" style="border:1px solid black">
+        </div>
+        <hr />
+    </section>
+
+    <section id="contact" class="mobile-contact-section">
+        <h2>Contact</h2>
+        <ul class="mobile-contact-links">
+            <li class="nav-item">
+            <a href='ma&#105;&#108;to&#58;%6&#56;&#101;l&#108;o&#64;jack%6&#50;oak&#101;s&#46;c&#111;m'>Email</a>
+        </li>
+        <li class="nav-item">
+            <a href="https://www.linkedin.com/in/jack-boakes-92273b389/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </li>
+            <li class="nav-item">
+            <a href="https://github.com/jackboakes" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </li>
+        </ul>
+        <hr />
+    </section>
+</main>
+
+<footer>
+    <p> © 2025 Jack Boakes</p>
+</footer>
+
+
 </body>
 </html>
