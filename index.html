@@ -37,7 +37,7 @@
             Currently, I am a final year Bachelor of Computer Science student with a passion for programming.
         </p>
         <p>
-            My interests are in gameplay, graphics, tool and engines, but I am open to exploring new areas and collaborating on exciting projects.
+            My interests are in gameplay, graphics, tools and engines, but I am open to exploring new areas and collaborating on exciting projects.
         </p>
         <hr />
     </section>
@@ -45,29 +45,49 @@
     <section class="projects">
         <h2 id="projects"> Projects </h2>
         <div class="projects-container">
-        <div class="project-item">
-            <h3>Snake</h3>
-            <div class="project-image">
-                <img src="img/Snake.png" alt="Snake Game Screenshot">
-                <p style="text-align: center;">
-                    <a href="https://github.com/jackboakes/snake" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-                </p>
+            <div class="project-item">
+                <h3>Star Constellation Minigame</h3>
+                <div class="project-image"><figure>
+                    <img src="img/Star_Constellation.png" alt="Star Constellation Minigame Screenshot">
+                    <figcaption>
+                        All concepts and designs belong to SBCCQ and are not to be reproduced.
+                    </figcaption>
+                </figure></div>
+                <div class="project-description">
+                    <p> 
+                        During my university capstone project, I developed a puzzle minigame for 
+                        <a href="https://sbccq.org/stephanies-animal-rescue/" target="_blank" rel="noopener noreferrer">Stephanie's Animal Rescue Secret Island</a>, in Unity 6.
+                    </p>
+                    <p>
+                        Players connect stars by dragging between nodes to form constellation shapes.
+                        The game features eight levels with constellation shapes ranging from triangles to hexagons.
+                        In each level, a different set of constellations are hidden amongst randomly placed stars, encouraging players to search.
+                    </p>
+                </div>
+            </div>
+            <div class="project-item">
+                <h3>Snake</h3>
+                <div class="project-image">
+                    <img src="img/Snake.png" alt="Snake Game Screenshot">
+                    <p style="text-align: center;">
+                        <a href="https://github.com/jackboakes/snake" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                    </p>
             </div>
             <div class="project-description">
                 <p>
-                    Snake was built as a personal project to strengthen my understanding of low-level programming and game architecture.
+                    I built Snake mostly because I was curious how simple games actually work under the hood. 
+                    It started as a tiny C console program with no grahpics, and I kept improving it as I learned more.
                 </p>
                 <p>
-                    Originally I wrote the game as a console application in C but later added raylib to handle opening a window and graphics. 
-                    I later refactored the project into modern C++17, applying best practices and using features like std::filesystem and std::string_view.
+                    Later, I added raylib to handle window opening and graphics, since the project was pretty bare bones.
+                    I decided to refactor the whole thing into modern C++ 17, to learn best practices and use features like std::filesystem and std::string_view.
                 <p>
-                    The game's menu UI is built in immediate mode and keeps track of only one active element.
+                    I designed the game's UI from scratch as an immediate-mode interface, keeping track of only one active element at a time.
                     Player input is polled every frame and stored in a circular queue of size two, enabling responsive movements.
                     The high score is saved to a text file using std::fstream, and all sound effects and artwork were created from scratch by me.
                 </p>
             </div>
         </div>
-
         </div>
         <hr />
     </section>
@@ -100,7 +120,7 @@
 </main>
 
 <footer>
-    <p> © 2025 Designed & Built by Jack Boakes.</p>
+    <p> © 2025 Jack Boakes. Designed and built by me.</p>
 </footer>
 
 
