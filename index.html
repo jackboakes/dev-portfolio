@@ -8,121 +8,96 @@
     <link rel="icon" href="favicon.ico">
 </head>
 <body ontouchstart="" id="home">
-  <header class="header-name">
-    <h1 >Jack Boakes</h1>
-  </header>
+    
+    <div class="topbar">
+        <div class="identity">
+            <h1>Jack Boakes</h1>
+            <p class="location">Melbourne, Australia</p>
+        </div>
+        <nav class="topbar-nav">
+            <a href="#projects">Projects</a>
+            <a href="https://github.com/jackboakes" target="_blank" rel="noopener noreferrer">GitHub↗</a>
+            <a href="https://www.linkedin.com/in/jack-boakes-92273b389/" target="_blank" rel="noopener noreferrer">LinkedIn↗</a>
+            <a href='ma&#105;&#108;to&#58;%6&#56;&#101;l&#108;o&#64;jack%6&#50;oak&#101;s&#46;c&#111;m'>Email↗</a>
+        </nav>
+    </div>
 
-<nav class="nav-bar"> 
-    <ul class="nav-menu"> 
-        <li class="nav-item"><a href="#home">Home</a></li> 
-        <li class="nav-item"><a href="#about-me">About Me</a></li> 
-        <li class="nav-item"><a href="#projects">Projects</a></li> 
-        <li class="nav-item mobile-contact"><a href="#contact">Contact</a></li> 
-    </ul>
-    <ul class="contact-links"> 
-        <li class="nav-item"> <a href="https://github.com/jackboakes" target="_blank" rel="noopener noreferrer">GitHub</a> 
-        </li> <li class="nav-item"> <a href="https://www.linkedin.com/in/jack-boakes-92273b389/" target="_blank" rel="noopener noreferrer">LinkedIn</a> 
-        </li> <li class="nav-item"> <a href='ma&#105;&#108;to&#58;%6&#56;&#101;l&#108;o&#64;jack%6&#50;oak&#101;s&#46;c&#111;m'>Email</a> </li> 
-    </ul> 
-</nav>
+    <main>
+        <section class="about-me">
+            <p> 
+                Hey, I'm <b>Jack Boakes</b>, I am a final year Bachelor of Computer Science student with a passion for programming.
+            </p>
+            <p>
+                My interests are in gameplay, graphics, tools and engines, but I am open to exploring new areas and collaborating on exciting projects.
+            </p>
+        </section>
 
-<main>
-    <section class="about-me">
-    <h2 id="about-me"> About Me </h2>
-        <p> 
-            Hey, I'm <b>Jack Boakes</b>, I aim to create the kind of moments for others that games have created for me.
-
-        </p>
-        <p>
-            Currently, I am a final year Bachelor of Computer Science student with a passion for programming.
-        </p>
-        <p>
-            My interests are in gameplay, graphics, tools and engines, but I am open to exploring new areas and collaborating on exciting projects.
-        </p>
-        <hr />
-    </section>
-
-    <section class="projects">
-        <h2 id="projects"> Projects </h2>
-        <div class="projects-container">
-            <div class="project-item">
-                <h3>Star Constellation Minigame</h3>
-                <div class="project-image"><figure>
-                    <img src="img/Star_Constellation.webp" alt="Star Constellation Minigame Screenshot" fetchpriority="high">
-                    <figcaption>
-                        All concepts and designs belong to SBCCQ and are not to be reproduced.
-                    </figcaption>
-                </figure></div>
-                <div class="project-description">
-                    <p> 
-                        During my university capstone project, I developed a puzzle minigame for 
-                        <a href="https://sbccq.org/stephanies-animal-rescue/" target="_blank" rel="noopener noreferrer">Stephanie's Animal Rescue Secret Island</a>, in Unity 6.
-                    </p>
-                    <p>
-                        Players connect stars by dragging between nodes to form constellation shapes.
-                        The game features eight levels with constellation shapes ranging from triangles to hexagons.
-                        In each level, a different set of constellations are hidden amongst randomly placed stars, encouraging players to search.
-                    </p>
+        <section class="projects">
+            <h2 id="projects"> Projects </h2>
+            <div class="projects-container">
+                <div class="project-item">
+                    <h3>Star Constellation Minigame</h3>
+                    <div class="project-image"><figure>
+                        <img src="img/Star_Constellation.webp" alt="Star Constellation Minigame Screenshot" fetchpriority="high">
+                        <figcaption>
+                            All concepts and designs belong to SBCCQ and are not to be reproduced.
+                        </figcaption>
+                    </figure></div>
+                    <div class="project-description">
+                        <p> 
+                            During my university capstone project, I developed a puzzle minigame for 
+                            <a href="https://sbccq.org/stephanies-animal-rescue/" target="_blank" rel="noopener noreferrer">Stephanie's Animal Rescue Secret Island</a>, in Unity 6.
+                        </p>
+                        <p>
+                            Players connect stars by dragging between nodes to form constellation shapes.
+                            The game features eight levels with constellation shapes ranging from triangles to hexagons.
+                            In each level, a different set of constellations are hidden amongst randomly placed stars, encouraging players to search.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <h3>Snake</h3>
+                    <div class="project-image">
+                        <img src="img/Snake.webp" alt="Snake Game Screenshot" loading="lazy">
+                        <p style="text-align: center;">
+                            <a href="https://github.com/jackboakes/snake" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+                        </p>
+                    </div>
+                    <div class="project-description">
+                        <p>
+                            I built Snake mostly because I was curious how simple games actually work under the hood. 
+                            It started as a tiny C console program with no grahpics, and I kept improving it as I learned more.
+                        </p>
+                        <p>
+                            Later, I added raylib to handle window opening and graphics, since the project was pretty bare bones.
+                            I decided to refactor the whole thing into modern C++ 17, to learn best practices and use features like std::filesystem and std::string_view.
+                        </p>
+                        <p>
+                            I designed the game's UI from scratch as an immediate-mode interface, keeping track of only one active element at a time.
+                            Player input is polled every frame and stored in a circular queue of size two, enabling responsive movements.
+                            The high score is saved to a text file using std::fstream, and all sound effects and artwork were created from scratch by me.
+                        </p>
+                    </div>
                 </div>
             </div>
-            <div class="project-item">
-                <h3>Snake</h3>
-                <div class="project-image">
-                    <img src="img/Snake.webp" alt="Snake Game Screenshot" loading="lazy">
-                    <p style="text-align: center;">
-                        <a href="https://github.com/jackboakes/snake" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-                    </p>
+        </section>
+
+        <section class="favourite-games">
+            <h2>Some of My Favourite Games</h2>
+            <div class="favourite-games-gallery">
+                <img src="img/IC_Cover.webp" alt="Square cover of Impossible Creatures game" loading="lazy">
+                <img src="img/LoL_Cover.webp" alt="Square cover of League of Legends" loading="lazy">
+                <img src="img/WoD_Cover.webp" alt="Square cover of World of Warcraft Warlords of Draenor Expansion" loading="lazy">
             </div>
-            <div class="project-description">
-                <p>
-                    I built Snake mostly because I was curious how simple games actually work under the hood. 
-                    It started as a tiny C console program with no grahpics, and I kept improving it as I learned more.
-                </p>
-                <p>
-                    Later, I added raylib to handle window opening and graphics, since the project was pretty bare bones.
-                    I decided to refactor the whole thing into modern C++ 17, to learn best practices and use features like std::filesystem and std::string_view.
-                <p>
-                    I designed the game's UI from scratch as an immediate-mode interface, keeping track of only one active element at a time.
-                    Player input is polled every frame and stored in a circular queue of size two, enabling responsive movements.
-                    The high score is saved to a text file using std::fstream, and all sound effects and artwork were created from scratch by me.
-                </p>
-            </div>
+        </section>
+        
+    <footer>
+        <span>© 2025 Jack Boakes</span>
+        <div>
+            <a href="https://github.com/jackboakes" target="_blank" rel="noopener noreferrer">GitHub↗</a>
+            <a href="https://www.linkedin.com/in/jack-boakes-92273b389/" target="_blank" rel="noopener noreferrer">LinkedIn↗</a>
+            <a href='ma&#105;&#108;to&#58;%6&#56;&#101;l&#108;o&#64;jack%6&#50;oak&#101;s&#46;c&#111;m'>Email↗</a>
         </div>
-        </div>
-        <hr />
-    </section>
-
-    <section class="favourite-games">
-        <h2>Some of My Favourite Games</h2>
-        <div class="favourite-games-gallery">
-            <img src="img/IC_Cover.webp" alt="Square cover of Impossible Creatures game" loading="lazy">
-            <img src="img/LoL_Cover.webp" alt="Square cover of League of Legends" loading="lazy">
-            <img src="img/WoD_Cover.webp" alt="Square cover of World of Warcraft Warlords of Draenor Expansion" loading="lazy">
-        </div>
-        <hr />
-    </section>
-
-    <section id="contact" class="mobile-contact-section">
-        <h2>Contact</h2>
-        <ul class="mobile-contact-links">
-            <li class="nav-item">
-            <a href='ma&#105;&#108;to&#58;%6&#56;&#101;l&#108;o&#64;jack%6&#50;oak&#101;s&#46;c&#111;m'>Email</a>
-        </li>
-        <li class="nav-item">
-            <a href="https://www.linkedin.com/in/jack-boakes-92273b389/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-        </li>
-            <li class="nav-item">
-            <a href="https://github.com/jackboakes" target="_blank" rel="noopener noreferrer">GitHub</a>
-        </li>
-        </ul>
-        <hr />
-    </section>
-</main>
-
-<footer>
-    <p> © 2025 Jack Boakes.</p>
-</footer>
-
-
+    </footer>
 </body>
 </html>
