@@ -14,11 +14,15 @@
 body {
 	font-family: var(--font-body);
 	@apply bg-main-bg text-text-body antialiased;
-
-	background-image: radial-gradient(circle, transparent 60%, hsl(7.6 73.3% 29.3% / 0.04) 100%);
-	background-attachment: fixed;
 }
 
 html {
 	scroll-behavior: smooth;
+}
+
+@media (min-width: 768px) {
+	body {
+		background-image: radial-gradient(circle, transparent 60%, hsl(7.6 73.3% 29.3% / 0.04) 100%);
+		background-attachment: fixed;
+	}
 }

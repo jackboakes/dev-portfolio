@@ -13,13 +13,24 @@
 
 		<nav class="mt-4 flex flex-row gap-6 text-sm text-text-muted md:mt-3 md:flex-row">
 			<a href="/#projects" class="hover:text-accent">Projects</a>
-			<a href="https://github.com/jackboakes" target="_blank" class="hover:text-accent">GitHub↗</a>
+			<a
+				href="https://github.com/jackboakes"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="hover:text-accent">GitHub↗</a
+			>
 			<a
 				href="https://www.linkedin.com/in/jack-boakes-92273b389/"
 				target="_blank"
+				rel="noopener noreferrer"
 				class="hover:text-accent">LinkedIn↗</a
 			>
-			<a href="mailto:hello@jackboakes.com" class="hover:text-accent">Email↗</a>
+			<a
+				href="mailto:hello@jackboakes.com"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="hover:text-accent">Email↗</a
+			>
 		</nav>
 	</header>
 
@@ -32,13 +43,24 @@
 	>
 		<span>© 2026 Jack Boakes</span>
 		<div class="flex gap-4">
-			<a href="https://github.com/jackboakes" class="hover:text-accent">GitHub↗</a>
+			<a
+				href="https://github.com/jackboakes"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="hover:text-accent">GitHub↗</a
+			>
 			<a
 				href="https://www.linkedin.com/in/jack-boakes-92273b389/"
 				target="_blank"
+				rel="noopener noreferrer"
 				class="hover:text-accent">LinkedIn↗</a
 			>
-			<a href="mailto:hello@jackboakes.com" class="hover:text-accent">Email↗</a>
+			<a
+				href="mailto:hello@jackboakes.com"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="hover:text-accent">Email↗</a
+			>
 		</div>
 	</footer>
 </div>

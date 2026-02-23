@@ -13,19 +13,29 @@
 		/>
 	{/if}
 
-	<h1 class="mb-4 text-sm font-semibold tracking-widest text-text-muted uppercase">
+	<h2 class="mb-4 text-sm font-semibold tracking-widest text-text-muted uppercase">
 		{project.title}
-	</h1>
+	</h2>
 
 	{#if project.liveUrl || project.githubUrl}
 		<div class="mb-8 flex gap-4 text-sm text-text-muted">
 			{#if project.liveUrl}
-				<a href={project.liveUrl} target="_blank" class="transition-colors hover:text-accent">
+				<a
+					href={project.liveUrl}
+					target="_blank"
+					rel="noopener noreferrer"
+					class="transition-colors hover:text-accent"
+				>
 					Live Demo↗
 				</a>
 			{/if}
 			{#if project.githubUrl}
-				<a href={project.githubUrl} target="_blank" class="transition-colors hover:text-accent">
+				<a
+					href={project.githubUrl}
+					target="_blank"
+					rel="noopener noreferrer"
+					class="transition-colors hover:text-accent"
+				>
 					GitHub↗
 				</a>
 			{/if}
