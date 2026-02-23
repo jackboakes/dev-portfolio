@@ -1,7 +1,7 @@
 <script>
 	/** @type {{ data: import('./$types').PageData }} */
 	let { data } = $props();
-	const { project } = data;
+	const project = $derived(data.project);
 </script>
 
 <article class="max-w-content">
