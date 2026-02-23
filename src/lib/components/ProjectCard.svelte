@@ -3,19 +3,19 @@
 	let { title, description, slug } = $props();
 </script>
 
-<div class="group relative py-5 px-2 rounded-xl hover:bg-accent/[0.03] transition-all duration-300">
-	<div class="flex justify-between items-start">
+<div class="group relative rounded-xl px-2 py-5 transition-all duration-300 hover:bg-accent/[0.03]">
+	<div class="flex items-start justify-between">
 		<div class="flex-1">
-			<h3 class="text-base font-semibold text-text-body group-hover:text-accent transition-colors">
+			<h3 class="text-base font-semibold text-text-body transition-colors group-hover:text-accent">
 				{title}
 			</h3>
-			<p class="text-text-muted text-sm leading-relaxed mt-0.5 max-w-[450px]">
+			<p class="mt-0.5 max-w-[450px] text-sm leading-relaxed text-text-muted">
 				{description}
 			</p>
 		</div>
 
 		<span
-			class="text-text-muted group-hover:text-accent group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all duration-200"
+			class="text-text-muted transition-all duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-accent"
 		>
 			↗
 		</span>

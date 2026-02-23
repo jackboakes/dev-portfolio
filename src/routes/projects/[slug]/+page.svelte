@@ -9,21 +9,23 @@
 		<img
 			src={project.image}
 			alt={project.title}
-			class="w-full rounded-lg mb-8 object-cover max-h-[400px]"
+			class="mb-8 max-h-[400px] w-full rounded-lg object-cover"
 		/>
 	{/if}
 
-	<h1 class="text-sm font-semibold uppercase tracking-widest text-text-muted mb-4">{project.title}</h1>
+	<h1 class="mb-4 text-sm font-semibold tracking-widest text-text-muted uppercase">
+		{project.title}
+	</h1>
 
 	{#if project.liveUrl || project.githubUrl}
-		<div class="flex gap-4 text-sm text-text-muted mb-8">
+		<div class="mb-8 flex gap-4 text-sm text-text-muted">
 			{#if project.liveUrl}
-				<a href={project.liveUrl} target="_blank" class="hover:text-accent transition-colors">
+				<a href={project.liveUrl} target="_blank" class="transition-colors hover:text-accent">
 					Live Demo↗
 				</a>
 			{/if}
 			{#if project.githubUrl}
-				<a href={project.githubUrl} target="_blank" class="hover:text-accent transition-colors">
+				<a href={project.githubUrl} target="_blank" class="transition-colors hover:text-accent">
 					GitHub↗
 				</a>
 			{/if}
@@ -38,7 +40,7 @@
 
 	<a
 		href="/"
-		class="inline-block mt-12 text-sm text-text-muted hover:text-accent transition-colors"
+		class="mt-12 inline-block text-sm text-text-muted transition-colors hover:text-accent"
 	>
 		← Back to projects
 	</a>
