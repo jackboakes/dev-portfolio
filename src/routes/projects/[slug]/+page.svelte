@@ -6,7 +6,7 @@
 
 <article class="max-w-content">
 	{#if project.image}
-		<img
+		<enhanced:img
 			src={project.image}
 			alt={project.title}
 			class="mb-8 max-h-[400px] w-full rounded-lg object-cover"
