@@ -6,7 +6,7 @@
 <section class="mt-10 mb-14 max-w-content">
 	<p class="mb-6 text-base leading-relaxed">
 		Hey, I'm <span class="font-semibold text-text-body">Jack Boakes</span>, a final year Bachelor of
-		Computer Science student. I'm interested in gameplay programming, graphics, tools and engine
+		Computer Science student at Deakin University. I'm interested in gameplay programming, graphics, tools and engine
 		development.
 	</p>
 	<p class="mb-6 text-base leading-relaxed">Lately I've been working in C++ with raylib.</p>
