@@ -3,13 +3,16 @@
 	import { projects } from '$lib/data/projects.js';
 </script>
 
-<section class="mt-10 mb-14 max-w-content">
+<section class="mt-6 mb-14 max-w-content">
 	<p class="mb-6 text-base leading-relaxed">
-		Hey, I'm <span class="font-semibold text-text-body">Jack Boakes</span>, a final year Bachelor of
-		Computer Science student at Deakin University. I'm interested in gameplay programming, graphics,
-		tools and engine development.
+		Hey, I'm Jack, a final year Bachelor of Computer Science student at Deakin University focused on
+		gameplay programming, tools and engine development. I enjoy building stuff from scratch and
+		getting into the details.
 	</p>
-	<p class="mb-6 text-base leading-relaxed">Lately I've been working in C++ with raylib.</p>
+	<p class="mb-6 text-base leading-relaxed">
+		In my spare time, I enjoy working on side projects &mdash; mostly games, reading books, and
+		lately I've been programming in C++ with raylib.
+	</p>
 </section>
 
 <section id="projects">
