@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Shippori+Mincho:wght@500;600;800&display=swap');
 @import 'tailwindcss';
 
 @theme {
@@ -6,8 +5,8 @@
 	--color-text-body: hsl(0, 0%, 18%);
 	--color-text-muted: hsl(30, 13%, 31%);
 	--color-accent: hsl(7.6, 73.3%, 29.3%);
-	--font-heading: 'Shippori Mincho', serif;
-	--font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+	--font-serif: 'Shippori Mincho', serif;
+	--font-sans: 'Inter', system-ui, sans-serif;
 	--spacing-content: 750px;
 }
 
