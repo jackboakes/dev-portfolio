@@ -25,19 +25,19 @@
 				href="https://github.com/jackboakes"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="hover:text-accent">GitHub↗</a
+				class="hover:text-accent"><span class="underline underline-offset-4">GitHub</span>↗</a
 			>
 			<a
 				href="https://www.linkedin.com/in/jack-boakes-92273b389/"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="hover:text-accent">LinkedIn↗</a
+				class="hover:text-accent"><span class="underline underline-offset-4">LinkedIn</span>↗</a
 			>
 			<a
 				href="mailto:hello@jackboakes.com"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="hover:text-accent">Email↗</a
+				class="hover:text-accent"><span class="underline underline-offset-4">Email</span>↗</a
 			>
 		</div>
 	</footer>

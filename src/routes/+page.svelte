@@ -13,6 +13,12 @@
 		In my spare time, I enjoy working on side projects &mdash; mostly games, reading books, and
 		lately I've been programming in C++ with raylib.
 	</p>
+	<p class="mb-6 text-base leading-relaxed">
+		Feel free to contact me via
+		<a href="mailto:hello@jackboakes.com" target="_blank" rel="noopener noreferrer" class="hover:text-accent"><span class="underline underline-offset-4">Email</span>↗</a>, or find me on
+		<a href="https://www.linkedin.com/in/jack-boakes-92273b389/" target="_blank" rel="noopener noreferrer" class="hover:text-accent"><span class="underline underline-offset-4">LinkedIn</span>↗</a> and
+		<a href="https://github.com/jackboakes" target="_blank" rel="noopener noreferrer" class="hover:text-accent"><span class="underline underline-offset-4">GitHub</span>↗</a>.
+	</p>
 </section>
 
 <section id="projects">
