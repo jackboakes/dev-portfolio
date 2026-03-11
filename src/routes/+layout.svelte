@@ -5,7 +5,7 @@
 <div class="mx-auto mt-14 max-w-content p-5 font-sans text-text-body md:p-10">
 	<header class="mb-10">
 		<div class="identity">
-			<h1 class="tracking-none font-serif text-4xl leading-none font-medium">
+			<h1 class="tracking-none font-serif text-4xl leading-none font-medium mb-1">
 				<a href="/" class="transition-colors hover:text-accent">Jack Boakes</a>
 			</h1>
 			<p class="text-sm text-text-muted">Melbourne, Australia</p>
