@@ -24,7 +24,7 @@
 					href={project.liveUrl}
 					target="_blank"
 					rel="noopener noreferrer"
-					class="transition-colors hover:text-accent"
+					class="transition-colors hover:text-accent active:text-accent"
 				>
 					Live Demo↗
 				</a>
@@ -34,7 +34,7 @@
 					href={project.githubUrl}
 					target="_blank"
 					rel="noopener noreferrer"
-					class="transition-colors hover:text-accent"
+					class="transition-colors hover:text-accent active:text-accent"
 				>
 					GitHub↗
 				</a>
@@ -50,7 +50,7 @@
 
 	<a
 		href="/"
-		class="mt-12 inline-block text-sm text-text-muted transition-colors hover:text-accent"
+		class="mt-12 inline-block text-sm text-text-muted transition-colors hover:text-accent active:text-accent"
 	>
 		← Back to projects
 	</a>

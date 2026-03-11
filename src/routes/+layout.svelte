@@ -9,7 +9,7 @@ import '@fontsource/shippori-mincho/800.css';
 	<header class="mb-10">
 		<div class="identity">
 			<h1 class="tracking-none font-serif font-extrabold text-4xl leading-none mb-3">
-				<a href="/" class="transition-colors hover:text-accent">Jack Boakes</a>
+				<a href="/" class="transition-colors hover:text-accent active:text-accent">Jack Boakes</a>
 			</h1>
 			<p class="text-sm text-text-muted">Melbourne, Australia</p>
 		</div>
@@ -28,19 +28,19 @@ import '@fontsource/shippori-mincho/800.css';
 				href="https://github.com/jackboakes"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="hover:text-accent"><span class="underline underline-offset-4">GitHub</span>↗</a
+				class="hover:text-accent active:text-accent"><span class="underline underline-offset-4">GitHub</span>↗</a
 			>
 			<a
 				href="https://www.linkedin.com/in/jack-boakes-92273b389/"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="hover:text-accent"><span class="underline underline-offset-4">LinkedIn</span>↗</a
+				class="hover:text-accent active:text-accent"><span class="underline underline-offset-4">LinkedIn</span>↗</a
 			>
 			<a
 				href="mailto:hello@jackboakes.com"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="hover:text-accent"><span class="underline underline-offset-4">Email</span>↗</a
+				class="hover:text-accent active:text-accent"><span class="underline underline-offset-4">Email</span>↗</a
 			>
 		</div>
 	</footer>
