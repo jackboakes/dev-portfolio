@@ -1,5 +1,29 @@
 @import 'tailwindcss';
 
+@font-face {
+	font-family: 'Shippori Mincho';
+	font-weight: 800;
+	font-style: normal;
+	font-display: optional;
+	src: url('/fonts/shippori-mincho-latin-800-normal.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-weight: 400;
+	font-style: normal;
+	font-display: optional;
+	src: url('/fonts/inter-latin-400-normal.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-weight: 600;
+	font-style: normal;
+	font-display: optional;
+	src: url('/fonts/inter-latin-600-normal.woff2') format('woff2');
+}
+
 @theme {
 	--color-main-bg: hsl(37, 39%, 94%);
 	--color-text-body: hsl(0, 0%, 18%);

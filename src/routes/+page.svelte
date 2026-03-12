@@ -15,9 +15,28 @@
 	</p>
 	<p class="mb-6 text-base leading-relaxed">
 		Feel free to contact me via
-		<a href="mailto:hello@jackboakes.com" target="_blank" rel="noopener noreferrer" class="hover:text-accent active:text-accent"><span class="underline underline-offset-4">Email</span>↗</a>, or find me on
-		<a href="https://www.linkedin.com/in/jack-boakes-92273b389/" target="_blank" rel="noopener noreferrer" class="hover:text-accent active:text-accent"><span class="underline underline-offset-4">LinkedIn</span>↗</a> and
-		<a href="https://github.com/jackboakes" target="_blank" rel="noopener noreferrer" class="hover:text-accent active:text-accent"><span class="underline underline-offset-4">GitHub</span>↗</a>.
+		<a
+			href="mailto:hello@jackboakes.com"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="hover:text-accent active:text-accent"
+			><span class="underline underline-offset-4">Email</span>↗</a
+		>, or find me on
+		<a
+			href="https://www.linkedin.com/in/jack-boakes-92273b389/"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="hover:text-accent active:text-accent"
+			><span class="underline underline-offset-4">LinkedIn</span>↗</a
+		>
+		and
+		<a
+			href="https://github.com/jackboakes"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="hover:text-accent active:text-accent"
+			><span class="underline underline-offset-4">GitHub</span>↗</a
+		>.
 	</p>
 </section>
 
