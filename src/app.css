@@ -34,12 +34,44 @@
 	--spacing-content: 750px;
 }
 
-body {
-	font-family: var(--font-sans);
-	@apply bg-main-bg text-text-body antialiased;
+::view-transition-old(site-header),
+::view-transition-new(site-header) {
+	animation: none;
+}
+
+::view-transition-old(page) {
+	animation: 350ms cubic-bezier(0.6, 0, 0.8, 1) both fade-out-blur;
+}
+
+::view-transition-new(page) {
+	opacity: 0;
+	animation: 500ms 350ms ease both fade-in-blur;
+}
+
+@keyframes fade-out-blur {
+	0% {
+		opacity: 1;
+		filter: blur(0);
+	}
+	100% {
+		opacity: 0;
+		filter: blur(4px);
+	}
+}
+
+@keyframes fade-in-blur {
+	0% {
+		opacity: 0;
+		filter: blur(4px);
+	}
+	100% {
+		opacity: 1;
+		filter: blur(0);
+	}
 }
 
 html {
+	background-color: hsl(37, 39%, 94%);
 	scroll-behavior: smooth;
 }
 
