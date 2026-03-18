@@ -90,8 +90,9 @@
 }
 
 html {
-	background-color: hsl(37, 39%, 94%);
+	background-color: var(--color-main-bg);
 	scroll-behavior: smooth;
+	scrollbar-gutter: stable;
 }
 
 @media (min-width: 768px) {
