@@ -3,18 +3,6 @@
 	import { projects } from '$lib/data/projects.js';
 </script>
 
-<svelte:head>
-	<style>
-		@media (min-width: 768px) {
-			html,
-			body {
-				overflow: hidden;
-				height: 100%;
-			}
-		}
-	</style>
-</svelte:head>
-
 <section class="mb-14 max-w-content">
 	<p class="mb-6 text-base leading-relaxed">
 		Hey, I'm Jack, a final year Bachelor of Computer Science student at Deakin University focused on
