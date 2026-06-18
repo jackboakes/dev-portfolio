@@ -1,5 +1,19 @@
 export const projects = [
 	{
+		title: 'Magik and Clay',
+		description: 'A WIP 2D game engine and game built with C++ 20 and DirectX 11',
+		slug: 'magik-and-clay',
+		image: '/projects/magik-and-clay.png',
+		liveUrl: null,
+		githubUrl: 'https://github.com/jackboakes/magik-and-clay',
+		content: [
+			'Magik and Clay is a custom game engine and game project that I’ve been working on alongside my university studies. It began as a way for me to break apart the abstraction layers that commercial game engines are built on and seemed like the best way for me to gain knowledge that could be applied to any engine in the future that I work on.',
+			'After discovering Casey Muratori’s Handmade Hero YouTube series, I was instantly hooked on the process of building games from scratch. It changed my perspective on game development by seeing it wasn’t as difficult to write from scratch as I once thought. I also realised that I didn’t need to be dependent on commercial engines to create games. So of course, I decided to start an engine of my own.',
+			'So far, the engine currently supports 2D sprite rendering, sprite animations, keyboard input handling, font rendering, and much more. Alongside the engine, I’m developing a game that serves as a tech demo and testing ground for new engine features. ',
+			'I’m still currently working on this project, and my long-term goal is to release a complete game built entirely with my own engine.'
+		]
+	},
+	{
 		title: 'Breakout',
 		description: 'The classic game breakout built with C++ 23 and raylib.',
 		slug: 'breakout',
