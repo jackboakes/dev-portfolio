@@ -29,7 +29,7 @@
 		</main>
 
 		<footer
-			class="mt-14 flex justify-between border-t border-text-muted/60 pt-6 text-sm text-text-muted"
+			class="mt-14 mb-6 flex justify-between border-t border-text-muted/60 pt-6 text-sm text-text-muted"
 		>
 			<span>© 2026 Jack Boakes</span>
 			<div class="flex gap-5">
