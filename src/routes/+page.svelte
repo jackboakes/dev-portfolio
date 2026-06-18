@@ -18,12 +18,12 @@
 <section class="mb-14 max-w-content">
 	<p class="mb-6 text-base leading-relaxed">
 		Hey, I'm Jack, a final year Bachelor of Computer Science student at Deakin University focused on
-		gameplay programming, tools and engine development. I enjoy building stuff from scratch and
+		gameplay programming and engine development. I enjoy building stuff from scratch and
 		getting into the details.
 	</p>
 	<p class="mb-6 text-base leading-relaxed">
 		In my spare time, I enjoy working on side projects &mdash; mostly games, reading books, and
-		lately I've been programming in C++ with raylib.
+		lately I've been programming my own engine in C++.
 	</p>
 	<p class="mb-6 text-base leading-relaxed">
 		Feel free to contact me via
