@@ -23,7 +23,7 @@
 			><span class="underline underline-offset-4">Email</span>↗</a
 		>, or find me on
 		<a
-			href="https://www.linkedin.com/in/jack-boakes-92273b389/"
+			href="https://www.linkedin.com/in/jack-boakes-/"
 			target="_blank"
 			rel="noopener noreferrer"
 			class="hover:text-accent active:text-accent"

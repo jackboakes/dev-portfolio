@@ -56,7 +56,7 @@
 					>
 				</a>
 				<a
-					href="https://www.linkedin.com/in/jack-boakes-92273b389/"
+					href="https://www.linkedin.com/in/jack-boakes-/"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="transition-colors hover:text-accent active:text-accent"
